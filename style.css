@@ -1,0 +1,118 @@
+ body {
+        font-family: "Source Han Sans SC", sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4c16f;
+        color: #333;
+      }
+      .container {
+        width: 80%;
+        margin: 40px auto;
+        background-color: #fff;
+        padding: 40px;
+        border-radius: 50px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      }
+      header {
+        display: flex;
+        text-align: center;
+        margin-bottom: 40px;
+      }
+      #div1 {
+        flex: 1;
+      }
+      #div2 {
+        flex: 1;
+      }
+      header img {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        margin-bottom: 20px;
+      }
+      header h1 {
+        font-weight: bold;
+        font-size: 36px;
+        color: #1b418f; /* 藍色 */
+        margin-bottom: 10px;
+      }
+      header p {
+        font-size: 18px;
+        color: #777;
+      }
+      .section {
+        margin-bottom: 30px;
+      }
+      .section h2 {
+        font-size: 24px;
+        color: #1b418f; /* 黃色 */
+        border-bottom: 2px solid #1b418f; /* 黃色邊框 */
+        padding-bottom: 5px;
+        margin-bottom: 20px;
+      }
+      .section p,
+      .section ul {
+        font-size: 16px;
+        line-height: 1.6;
+      }
+      .section ul {
+        list-style: none;
+        padding: 0;
+      }
+      .section li {
+        margin-bottom: 10px;
+      }
+      #companyContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .experience ul,
+      .education li {
+        background: #e5e5e5a1;
+        padding: 10px;
+        margin: 50;
+        border-radius: 20px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+        width: 500px;
+        height: 400px;
+        justify-content: center;
+        align-items: center;
+      }
+      .experience ul strong,
+      .education li strong {
+        padding: 20px;
+        margin: 20;
+        font-weight: bold;
+        color: #333;
+      }
+      .skills li {
+        display: inline-block;
+        background-color: #08a858; /* 藍色背景 */
+        color: white;
+        padding: 8px 15px;
+        border-radius: 20px;
+        margin: 5px;
+      }
+      .social-links a {
+        color: #1b418f;
+        text-decoration: none;
+        margin-right: 15px;
+      }
+      .social-links a:hover {
+        text-decoration: underline;
+      }
+      .contact-info p,
+      .social-links p {
+        margin: 5px 0;
+      }
+      footer {
+        text-align: center;
+        margin-top: 40px;
+        font-size: 14px;
+        color: #888;
+      }
+      footer a {
+        color: #007bff; /* 藍色 */
+        text-decoration: none;
+      }
